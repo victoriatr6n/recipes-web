@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #D1E7D5;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  margin-right: auto; /* Allow the title to take its space, but no more */
+}
+
+.navButtonsContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: flex-end; /* Push buttons to the right */
+}
+
+.navButtons {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+
+ 

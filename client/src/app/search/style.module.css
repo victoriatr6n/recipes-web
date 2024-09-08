@@ -1,0 +1,43 @@
+.search{
+    margin-top: 10px;
+}
+
+.formContainer{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;  /* Stack form and recipe list vertically */
+    align-items: center;   
+}
+/* .forms {
+    align-self: center;
+    margin-top: 3vh;
+} */
+
+.centeredForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the form elements */
+    background-color: #f9f9f9;  /* Optional: Add a background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add some shadow */
+}
+
+.centeredForm div {
+    margin-bottom: 20px;  /* Adds 20px vertical spacing between the form elements */
+}
+
+.recipeList{
+    margin-top: 20px;  /* Add some space between the form and the recipe list */
+    width: 100%;       /* Ensure it takes the full width under the form */
+    height: 100vh;
+    text-align: left;
+}
+
+.buttons{
+    border-radius: 5px;
+}
+
+.norecipes{
+    text-align: center;
+}
