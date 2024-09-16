@@ -1,8 +1,6 @@
-# 💻 MERN stack template
+# RecipEASY
 
-Template for building projects with the MERN (MongoDB, Express, React, Node.js) stack.
-This template was generated using `create-next-app` and `express-generator` for the
-client and server, respectively.
+Recipe website to make searching for recipes easier and help users find more personalized recipe queries 
 
 ## Prerequisites
 
