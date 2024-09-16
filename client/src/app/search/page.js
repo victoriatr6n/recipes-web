@@ -96,7 +96,7 @@ export default function Search() {
         <div className={styles.formContainer}>
             <form onSubmit={search} className={styles.centeredForm}>
                 <div >
-                    <label htmlFor="ingredients">Ingredients:  </label>
+                    <label className={styles.labels} htmlFor="ingredients">Ingredients:  </label>
                     <input 
                         id="ingredients"
                         name="queryIngredients" 
@@ -107,7 +107,7 @@ export default function Search() {
                 </div>
 
                 <div >
-                    <label htmlFor="numPeople">Number of People: </label>
+                    <label className={styles.labels} htmlFor="numPeople">Number of People: </label>
                     <input 
                         id="numPeople"
                         name="queryPeople" 

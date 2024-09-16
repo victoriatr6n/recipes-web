@@ -3,14 +3,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #D1E7D5;
+  background-color: #3D563F;
 }
 
 .title {
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+ 
   margin-right: auto; /* Allow the title to take its space, but no more */
+  margin-left: 12px;
 }
 
 .navButtonsContainer {
@@ -23,10 +24,17 @@
 .navButtons {
   font-size: 18px;
   text-decoration: none;
-  color: black;
+  color: rgb(243, 238, 238);
   padding: 5px 10px;
   white-space: nowrap;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  
 }
+ .logo{
+  margin-right: 30px;
+ }
+
 
 
  

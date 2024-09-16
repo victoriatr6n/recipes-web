@@ -5,9 +5,11 @@ import styles from './accordion.module.css';
 
 function RecipeAccordion({eventKey, title, onSave, ingredients = [], instructions = ''}) {
     const [saved, setSaved] = useState(false);
+    const [color, setColor] = useState('gray');
 
     const handleSave = () => {
         setSaved(!saved);
+        setColor(saved ? 'gray':'black');
         onSave();  // Call the function passed in via props to save the recipe
     };
     
@@ -35,7 +37,7 @@ function RecipeAccordion({eventKey, title, onSave, ingredients = [], instruction
                         <p>No instructions found for this recipe.</p>
                     )}
                     <div>
-                        <button onClick={handleSave}>
+                        <button onClick={handleSave} style={{border:'none', background: 'white', color: color, radius:'5px'}}> <span className={styles.save}>save recipe </span>
                             {saved ? "❤️" : "🤍"}
                         </button>
                     </div>

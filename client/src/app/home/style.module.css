@@ -1,0 +1,22 @@
+.landing{
+   padding-top: 10vh;
+    align-items: center;
+    text-align: center;
+    flex: auto;
+}
+
+.explore{
+    padding-top: 10vh;
+}
+.suggested{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center; /* Centers the items horizontally */
+    max-width: 2000px; /* Adjust to fit your layout */
+    margin: 0 auto;
+    
+}
+
+

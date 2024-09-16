@@ -6,7 +6,8 @@
     padding-top: 20px;
     display: flex;
     flex-direction: column;  /* Stack form and recipe list vertically */
-    align-items: center;   
+    align-items: center;
+     
 }
 /* .forms {
     align-self: center;
@@ -41,3 +42,6 @@
 .norecipes{
     text-align: center;
 }
+ .labels{
+    padding-right: 10px;
+ }
